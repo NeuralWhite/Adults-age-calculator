@@ -12,10 +12,14 @@ A simple Python program that calculates adult status based on age input.
 
 ## How to Run
 
-```bash
-python age_calculator.py 
+### Method 1
+  ```bash
+jupyter notebook adult-age-calculator.ipynb
 ```
-
+### Method 2
+```jupyter nbconvert --to python adult-age-calculator.ipynb
+python adult-age-calculator.py
+```
 
 ## Example Output
 ```
@@ -46,7 +50,7 @@ You became adult in year 2019,
 ## Project Structure
 
 adult-age-calculator/
-├── age_calculator.py    # Main program file
+├── age_calculator.ipynb    # Main program file
 └── README.md           # This documentation file
 
 
