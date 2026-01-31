@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24984178/README.md)
 # Adult Age Calculator
 
 A simple Python program that calculates adult status based on age input.
@@ -12,8 +11,13 @@ A simple Python program that calculates adult status based on age input.
 
 ## How to Run
 
+### Method 1 : Jupyter Notebook
 ```bash
-python age_calculator.py 
+jupyter notenook adult-age-calculator.ipynb
+```
+### Method 2 : Conver to Python
+```jupyter nbconvert --to Python adult-age-calculator.ipynb
+python adult-age-calculator.py
 ```
 
 
